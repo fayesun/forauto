@@ -1,7 +1,61 @@
 {% extends 'mysqltools/base.html' %}
 {% block title %}New a MySQL Replication Cluster {% endblock %}
 {% block content %}
-<h3><span class="label label-default">Setup a New MySQL Replication Cluster</span></h3>
+<div class="container">
+    <form class="form-horizontal" role="form">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3><span class="label label-default">Setup a New MySQL Replication Cluster</span></h3>
+        </div>
+    </div>
 
 
+    <div class="row">
+        <div class="form-group">
+        <div class="col-xs-2">
+            <h4>Master</h4>
+        </div>
+        <div class="col-xs-10">
+
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+    <div class="row">
+        <div class="col-xs-2">
+            <h4>Slave</h4>
+        </div>
+        <div class="col-xs-10">
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="form-group">
+    <div class="row">
+        <div class="col-xs-2">
+            <h4>Replication User</h4>
+        </div>
+        <div class="col-xs-10">
+
+        </div>
+
+    </div>
+    </div>
+
+    <div class="form-group">
+    <div class="row">
+        <div class="col-xs-offset-2">
+            <button class="btn btn-info" type="submit" value="">Create a New MySQL Replication</button>
+        </div>
+
+    </div>
+    </div>
+    </form>
+</div>
 {% endblock %}
