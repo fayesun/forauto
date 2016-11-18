@@ -1,3 +1,10 @@
 body {
-    padding-top: 70px;
+    padding-top: 50px;
+}
+
+#nav-left-affix-1 {
+    background: #5B5B5B;
+    color: #E0E0E0;
+    position: fixed;
+    height: 100%;
 }
