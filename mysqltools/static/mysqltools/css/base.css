@@ -4,7 +4,9 @@ body {
 
 #nav-left-affix-1 {
     background: #5B5B5B;
-    color: #E0E0E0;
-    position: fixed;
-    height: 100%;
+    color: #d0d0d0;
+    height: 94.9vh;
+    padding-top: 50px;
 }
+
+a {color: #d0d0d0;}

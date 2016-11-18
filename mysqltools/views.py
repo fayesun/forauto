@@ -5,3 +5,10 @@ from django.views.generic import TemplateView
 
 class IndexView(TemplateView):
     template_name = 'mysqltools/index.html'
+
+
+class ListReplView(TemplateView):
+    template_name = 'mysqltools/listrepl.html'
+
+class NewReplView(TemplateView):
+    template_name = 'mysqltools/newrepl.html'
