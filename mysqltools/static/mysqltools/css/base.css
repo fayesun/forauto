@@ -10,3 +10,8 @@ body {
 }
 
 a {color: #d0d0d0;}
+
+#content-pos {
+    padding-top: 30px;
+    padding-left: 100px;
+}

@@ -31,14 +31,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-2" id="nav-left-affix-1">
-            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix-top" data-offset-top="205">
                 <li><a href="{% url 'list-repl' %}">MySQL Replication List</a></li>
-                <li><a href="{% url 'new-repl' %}">New Setup Mysql Replication</a></li>
+                <li><a href="{% url 'new-repl' %}">New Setup MySQL Replication</a></li>
             </ul>
         </div>
         <div class="col-xs-10" id="content-pos">
-            okkkkk
-            {% block content %}ddddddddddddd{% endblock %}
+            {% block content %}{% endblock %}
         </div>
     </div>
 </div>
